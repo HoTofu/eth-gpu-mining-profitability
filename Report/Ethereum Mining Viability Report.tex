@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[margin=1in]{geometry} % set margins to 1 inch using the geometry package
+\usepackage[none]{hyphenat} % remove indentation of paragraphs
+\usepackage{fancyhdr} % package to change headers and footers and add Title Page
+\usepackage[nottoc,notlot,notlof]{tocbibind} % stuff for table of contents
+
+\pagestyle{fancy} 
+\fancyhead{} % clear default header
+\fancyfoot{} % clear default footer
+\fancyhead[L]{\slshape {Investing in Cryptocurrency Mining}} % add name of report in header
+\fancyhead[R]{Victor You}
+\fancyfoot[C]{\thepage} % add page number at center of footer
+\renewcommand{\footrulewidth}{0pt} % add line at top of page
+\renewcommand{\headrulewidth}{1pt} % add line at bottom of page
+\setlength{\headheight}{14pt}% ...at least 13.59999999pt to fix warning
+
+
+\setlength{\parindent}{0em} % length of indentation of paragraphs
+\setlength{\parskip}{1em} % extra spacing between paragraphs
+\renewcommand{\baselinestretch}{1} % change line spacing
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+\vspace*{6cm}
+\Huge Investing in Cryptocurrency Mining:\\
+\huge Analysis of Risks \& Returns\\
+\vspace*{1cm}
+\large By Victor You\\
+\vspace*{0.5cm}
+\large June 2, 2021
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagenumbering{gobble}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Introduction}
+\vspace{-10pt}
+
+\vspace{-10pt}
+
+\section{Advantages}
+\vspace{-10pt}
+
+\vspace{-10pt}
+
+\section{Risks}
+\vspace{-10pt}
+We will be discussing these risks as they relate to the profitability of mining Ethereum.
+\vspace{-10pt}
+
+\subsection{EIP-1559}
+\vspace{-10pt}
+This is an amendment to Ethereum transaction pricing that will standardize fees paid per block\footnote{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md}. Ethereum traditionally used a market-driven mechanism to prioritize transactions, where transactions specifying the highest fees are included in a mined block (as only a limited number of transactions can be included in a single block). These fees are paid to the miner of a block in addition to the block reward. This has led to temporary increases in the profitability of mining Ethereum, with large spikes in times of heavy network congestion. 
+
+This new update will instead specify a fixed fee for each transaction which will be adjusted dynamically based on network congestion. However, instead of this fee being paid to the miner, this fixed fee will be burned by the protocol. However, a small priority fee will be attached to each transaction to incentivize miners to include that transaction in a block. Users can adjust this priority fee based on their needs, howeverm this amount will always be at least 1 nanoeth (1gwei) to compensate miners for taking on orphan risk). This new system will only pay the miner the priority fee. 
+
+The risk to miners is that this standardization of fees will reduce the block reward, and hence will reduce the amount of eth mined per day for a fixed hashrate and price. 
+\vspace{-10pt}
+\subsection{Proof-of-Work (POW)}
+
+\end{document}
