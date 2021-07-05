@@ -46,24 +46,45 @@
 
 \vspace{-10pt}
 
-\section{Advantages}
+\section{Analysis}
 \vspace{-10pt}
-
+\subsection{Return}
+\subsection{Asset Value}
+\subsection{Market Correction}
 \vspace{-10pt}
 
 \section{Risks}
 \vspace{-10pt}
 We will be discussing these risks as they relate to the profitability of mining Ethereum.
 \vspace{-10pt}
+\subsection{Market Crash}
+\vspace{-10pt}
+The cryptocurrency market is known for its volatility and this remains the largest threat to our returns. The current cryptocurrency bull market is caused by the COVID-19 pandemic. Many more people have been interested in cryptocurrencies after losing their jobs or being stuck indoors due to lockdown measures implemented by governments around the world. People view cryptocurrencies as a quick way to become rich and I believe that many do not understand what they are buying. Market prices are determined purely by the forces of supply and demand, with no efficient market of which to speak. After the last bull market in 2017, Ether fell from a high of \$1405 to just \$83.
 
+The risk of a market crash can be mitigated by converting mined cryptocurrency into fiat currencies often (perhaps on a weekly or even daily basis). I will point out here that an immediate market crash is extremely unlikely. In the market pullback from the last bull market ending in 2018, Ether fell from a price of \$1405 USD to \$83 USD over the course of almost an entire year from Jan 9 to Dec 15 2018. During this time, Ether had a daily average closing price of \$485 USD. This is a much more likely scenario than a sudden 80-90\% drop in the value of Ether. Over this time, if we consistently convert mining revenue from Ether into fiat currency (or to a stablecoin), then the risks of a market crash can be mitigated.
+\vspace{-10pt}
+
+\subsection{Increased Operating Costs}
+\subsection{Hardware Failure}
 \subsection{EIP-1559}
 \vspace{-10pt}
-This is an amendment to Ethereum transaction pricing that will standardize fees paid per block\footnote{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md}. Ethereum traditionally used a market-driven mechanism to prioritize transactions, where transactions specifying the highest fees are included in a mined block (as only a limited number of transactions can be included in a single block). These fees are paid to the miner of a block in addition to the block reward. This has led to temporary increases in the profitability of mining Ethereum, with large spikes in times of heavy network congestion. 
+This is an amendment to Ethereum transaction pricing that will standardize fees paid per block\footnote{https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md}. Ethereum traditionally used a market-driven mechanism to prioritize transactions, where transactions specifying the highest fees are included in a mined block (as only a limited number of transactions can be included in a single block). These fees are paid to the miner of a block in addition to the block reward. This has led to temporary increases in the profitability of mining Ether, with large spikes in times of heavy network congestion. 
 
-This new update will instead specify a fixed fee for each transaction which will be adjusted dynamically based on network congestion. However, instead of this fee being paid to the miner, this fixed fee will be burned by the protocol. However, a small priority fee will be attached to each transaction to incentivize miners to include that transaction in a block. Users can adjust this priority fee based on their needs, howeverm this amount will always be at least 1 nanoeth (1gwei) to compensate miners for taking on orphan risk). This new system will only pay the miner the priority fee. 
+This new update will instead specify a fixed fee for each transaction which will be adjusted dynamically based on network congestion. However, instead of this fee being paid to the miner, this fixed fee will be burned by the protocol. However, a small priority fee will be attached to each transaction to incentivize miners to include that transaction in a block. Users can adjust this priority fee based on their needs, however this amount will always be at least 1 nanoeth (1gwei) to compensate miners for taking on orphan risk). This new system will only pay the miner the priority fee. 
 
-The risk to miners is that this standardization of fees will reduce the block reward, and hence will reduce the amount of eth mined per day for a fixed hashrate and price. 
+The risk to miners is that this standardization of fees will reduce the block reward, and hence will reduce the amount of eth mined per day for a fixed hashrate. This EIP is expected to be included in the London hard fork coming sometime around July 14, 2021.
+\vspace{-10pt}
+\subsection{Difficulty Time Bomb}
+\vspace{-10pt}
+The long-term goal of Ethereum is to transition to a proof-of-work (PoW) system where users of the blockchain maintain control. The Time Bomb is functionality in the blockchain that will increase the difficulty of mining exponentially in an attempt to deter miners from forking the chain when Ethereum switches to PoW. As difficulty increases exponentially, we will see a equivalent reduction in the amount of ethereum mined for a fixed hashrate. A 0.1 second delay to blocktime is expected in the first week and a 1 second increase in blocktime is expected after a month of its implementation.
+
+This time bomb will be delayed to start in December 2021 by EIP-3554 which will be included in the London hard fork expected around July 14, 2021\footnote{https://eips.ethereum.org/EIPS/eip-3554}. Mining is still expected to be profitable for a few months following the difficulty bomb, but more profitable alternatives will emerge as a better use for graphics cards.
 \vspace{-10pt}
 \subsection{Proof-of-Work (POW)}
+\vspace{-10pt}
 
+\vspace{-10pt}
+\subsection{Legal Risks}
+
+\section{Beyond Ethereum}
 \end{document}

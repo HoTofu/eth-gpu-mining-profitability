@@ -1,5 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{1}%
-\contentsline {section}{\numberline {2}Advantages}{1}%
+\contentsline {section}{\numberline {2}Analysis}{1}%
+\contentsline {subsection}{\numberline {2.1}Return}{1}%
+\contentsline {subsection}{\numberline {2.2}Asset Value}{1}%
+\contentsline {subsection}{\numberline {2.3}Market Correction}{1}%
 \contentsline {section}{\numberline {3}Risks}{1}%
-\contentsline {subsection}{\numberline {3.1}EIP-1559}{1}%
-\contentsline {subsection}{\numberline {3.2}Proof-of-Work (POW)}{1}%
+\contentsline {subsection}{\numberline {3.1}Market Crash}{1}%
+\contentsline {subsection}{\numberline {3.2}Increased Operating Costs}{1}%
+\contentsline {subsection}{\numberline {3.3}Hardware Failure}{1}%
+\contentsline {subsection}{\numberline {3.4}EIP-1559}{1}%
+\contentsline {subsection}{\numberline {3.5}Difficulty Time Bomb}{2}%
+\contentsline {subsection}{\numberline {3.6}Proof-of-Work (POW)}{2}%
+\contentsline {subsection}{\numberline {3.7}Legal Risks}{2}%
+\contentsline {section}{\numberline {4}Beyond Ethereum}{2}%
